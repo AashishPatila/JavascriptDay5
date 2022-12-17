@@ -1,0 +1,43 @@
+
+
+ *{
+    background-color: rgb(153, 158, 201);
+} 
+h2{ text-align: center;}
+h3{ text-align: center;}
+button {
+    display: block;
+    width: 100px;
+    height: 50px;
+    background-color: rgb(117, 167, 156);
+    border: 1px solid rgb(99, 81, 81);
+    border-radius: 4px;
+    margin: 10px auto;
+    text-align: center;
+    line-height: 50px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #ddd;
+  }
+
+/* Task 4 */
+
+#lightbulb {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: yellow;
+  }
+  
+  .off {
+    background-color: grey;
+  }
+  
+  .on {
+    background-color: yellow;
+    box-shadow: 0 0 10px 10px yellow;
+  }
+ 
